@@ -15,28 +15,32 @@
         background-color: aqua;
     }
 
-    h3{
-        font-size: 1.7rem;
+    h2{
+        font-size: 1.9rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 0.9;
+        font-weight: 550;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .content1 h3,h1 {
+    .content1 h2,h1 {
         color: rgb(243, 97, 44);
         margin-left: 25px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     }
     
     .hamburger {
         display: block;
         padding-left: 30px;
-        color: aqua;
-        background-color: brown;
     }
     .content1 {
+        display: flex;
+        flex-direction: column;
         text-align: justify;
+        padding: 25px;
+        gap: 5px;
     }
     .content1 p {
         background-color: rgb(252, 248, 246);
@@ -45,7 +49,11 @@
         margin-top: 30px;
     }
 
-    h2,h5 {
+    .venue {
         margin-left: 25px;
+    }
+
+    .venue h4 {
+        margin-top: 10px;
     }
 }
