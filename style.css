@@ -1,8 +1,9 @@
 @media screen and (max-width: 1024px) {
     * { 
         box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
+        font-family: "Lato", sans-serif;
     }
 
     body {
@@ -10,9 +11,18 @@
         background-color: rgb(252, 250, 248);
     }
 
-    .nav-bar {
-        margin-top: 50px;
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+        height: 5rem;
+        z-index: 1;
+        background: url(/images/background.jpg);
+    }
 
+    .nav-bar {
+        display: flex;
+        align-items: center;
     }
 
     .hero_section {
@@ -38,8 +48,20 @@
     }
     
     .hamburger {
-        display: block;
-        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 55px;
+        width: 90px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .hamburger-bars {
+        background-color: #333;
+        width: 100%;
+        height: 3px;
+        color: white;
     }
     .content1 {
         display: flex;
@@ -73,16 +95,27 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
         gap: 10px;
         margin-top: 10px;
         background-color: rgb(64, 60, 60);
+        height: 110px;
     }
-    span {
+    .function h2 {
         color:  rgb(243, 97, 44);
         margin-top: 15px;
+        font-size: 0.9rem;
     }
     .function img {
         background-color: rgb(37, 35, 35);
+    }
+
+    .function p {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 85%;
     }
     .content2 h3 {
         text-align: center;
@@ -97,5 +130,45 @@
     }
     .gathering {
         margin-top: 100px;
+    }
+    .featured-speakers {
+        margin-top: 100px;
+    }
+    .people {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+
+    .description {
+       padding-left: 30px;
+    }
+
+    i {
+        font-size: 0.9rem;
+        color: rgb(233, 106, 15);
+    }
+
+    .images img {
+        height: 200px;
+        width: 170px;
+    }
+
+    .heading hr {
+        width: 35%;
+        border-color: coral;
+        position: absolute;
+        right: 150px;
+    }
+
+    .heading h2 {
+        text-align: center;
     }
 }
