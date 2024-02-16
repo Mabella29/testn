@@ -145,6 +145,7 @@ ul {
     align-items: center;
     padding: 20px;
     border: 3px solid #fff;
+    
 }
 
 .venue h3 {
@@ -211,7 +212,43 @@ ul {
 
 .featured-speakers {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    gap: 60px;
+    padding: 70px;
+    margin-bottom: 50px;
 }
+
+.heading hr {
+    position: relative;
+    left: 8%;
+    top: 13px;
+    width: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(239, 81, 60);
+}
+
+.people {
+    padding-top: 50px;
+}
+
+.people .images {
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    height: 220px;
+}
+
+.people .description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .images img{
     width: 40%;
 }
@@ -401,7 +438,7 @@ ul {
         margin-top: 70px;
         margin-bottom: 30px;
     }
-    .featured-speakers {
+    .featured-speakers #feat {
         margin-top: 50px;
     }
     .people {
