@@ -528,6 +528,9 @@ footer i {
         display: flex;
         flex-direction: column;
         margin-top: 45px;
+        gap: 20px;
+        position: relative;
+        width: 22em;
     }
 
     .images {
@@ -535,10 +538,11 @@ footer i {
         flex-direction: row;
         justify-content: flex-start;
         margin-top: 40px;
+        min-height: 220px;
     }
 
     .description {
-       padding-left: 30px;
+       padding-left: 10px;
     }
 
     .description h2 {
